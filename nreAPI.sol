@@ -28,7 +28,7 @@ SOFTWARE.
 
 pragma solidity >= 0.4.0; // Compiler version incompatible error!
 
-contract niguezRandomityEngine {
+abstract contract niguezRandomityEngine {
 
   function ra() external view returns (uint256);
 	function rb() external view returns (uint256);

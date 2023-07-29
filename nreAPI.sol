@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 /*
 
 Ñíguez Randomity Engine API
@@ -30,30 +32,30 @@ pragma solidity >= 0.4.0; // Compiler version incompatible error!
 
 abstract contract niguezRandomityEngine {
 
-  function ra() external view returns (uint256);
-	function rb() external view returns (uint256);
-	function rc() external view returns (uint256);
-	function rd() external view returns (uint256);
-	function re() external view returns (uint256);
-	function rf() external view returns (uint256);
-	function rg() external view returns (uint256);
-	function rh() external view returns (uint256);
-	function ri() external view returns (uint256);
-	function rj() external view returns (uint256);
-	function rk() external view returns (uint256);
-	function rl() external view returns (uint256);
-	function rm() external view returns (uint256);
-	function rn() external view returns (uint256);
-	function ro() external view returns (uint256);
-	function rp() external view returns (uint256);
-	function rq() external view returns (uint256);
-	function rr() external view returns (uint256);
-	function rs() external view returns (uint256);
-	function rt() external view returns (uint256);
-	function ru() external view returns (uint256);
-	function rv() external view returns (uint256);
-	function rw() external view returns (uint256);
-	function rx() external view returns (uint256);
+  function ra() external view virtual returns (uint256);
+	function rb() external view virtual returns (uint256);
+	function rc() external view virtual returns (uint256);
+	function rd() external view virtual returns (uint256);
+	function re() external view virtual returns (uint256);
+	function rf() external view virtual returns (uint256);
+	function rg() external view virtual returns (uint256);
+	function rh() external view virtual returns (uint256);
+	function ri() external view virtual returns (uint256);
+	function rj() external view virtual returns (uint256);
+	function rk() external view virtual returns (uint256);
+	function rl() external view virtual returns (uint256);
+	function rm() external view virtual returns (uint256);
+	function rn() external view virtual returns (uint256);
+	function ro() external view virtual returns (uint256);
+	function rp() external view virtual returns (uint256);
+	function rq() external view virtual returns (uint256);
+	function rr() external view virtual returns (uint256);
+	function rs() external view virtual returns (uint256);
+	function rt() external view virtual returns (uint256);
+	function ru() external view virtual returns (uint256);
+	function rv() external view virtual returns (uint256);
+	function rw() external view virtual returns (uint256);
+	function rx() external view virtual returns (uint256);
 }
 
 contract usingNRE {
